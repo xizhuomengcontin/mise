@@ -1,5 +1,32 @@
 # Changelog
 
+## [2026.9.7](https://github.com/jdx/mise/compare/v2026.9.6..v2026.9.7) - 2026-09-13
+
+### 🐛 Bug Fixes
+
+- **(config)** accept system in idiomatic version files by @jdx in [#13132](https://github.com/jdx/mise/pull/13132)
+- **(lock)** ignore release age for locked versions by @jdx in [#13128](https://github.com/jdx/mise/pull/13128)
+- **(release)** publish mise-agent-env before mise by @jdx in [#13122](https://github.com/jdx/mise/pull/13122)
+
+### 📦 Registry
+
+- restore aqua backend for mc by @jdx in [#13124](https://github.com/jdx/mise/pull/13124)
+
+### Ci
+
+- enforce per-test unit timeouts on macOS by @jdx in [#13120](https://github.com/jdx/mise/pull/13120)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (2)
+
+- [`kjanat/actionlint`](https://github.com/kjanat/actionlint)
+- [`redhat-et/ripwire`](https://github.com/redhat-et/ripwire)
+
+#### Updated Packages (1)
+
+- [`minio/mc`](https://github.com/minio/mc)
+
 ## [2026.9.6](https://github.com/jdx/mise/compare/v2026.9.5..v2026.9.6) - 2026-09-12
 
 ### 🚀 Features
